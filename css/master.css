@@ -1,14 +1,19 @@
-.assign-2-shape-1 {
+.assign-3-shape-1 {
     width: 400px;
+    height: 400px;
     background-image: Url(../images/css-assignment-5-8.png);
-    /* background-color: blueviolet; */
+    background-size: 50% 50%;
     background-repeat: no-repeat;
-    margin: auto;
-    padding: 20px;
+    background-color:#DDD;
+    background-position: bottom right ;
+    border-width: 10px;
+    border-color:red ;
+    border-style: solid;
+
 }
 
 .assign-2-shape-2 {
-     width: 400px;
+    width: 400px;
     background-image: Url(../images/css-assignment-5-8.png);
     /* background-color: blueviolet; */
     background-repeat: repeat-y;
@@ -22,4 +27,5 @@
     background-color: hsla(271, 76%, 53%, 0.1);
     margin: auto;
     padding: 20px;
+    
 }
