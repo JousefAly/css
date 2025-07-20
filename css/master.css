@@ -1,0 +1,18 @@
+Selector{
+    Property: Value;
+}
+
+
+p{
+    color:red;
+    font-size: 40px;
+}
+
+div{
+    background-color: rgb(0 0 0 / 95%);
+    background-color: #3700ff;
+    background-image: url(../images/download\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+}
