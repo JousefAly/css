@@ -1,15 +1,8 @@
 div {
     background: #DDD;
-    /*clock direction*/
-    /* top right bottom left */
-    /* 10px 10px 10px 10px */
-    /* padding: 10px; */
-
-    /* top right bottom left */
-    /* 10px 10px 10px 10px */
-    /*ommited values are taken from the opposite direction
-    so here we have top and right, 
-    so bottom will be 10px, left will be 20px
-    10 20 10 20 */
-    padding: 10px 20px;
+    padding: 10px;
+    /* margin: 10px; */
+    width: 80%;
+    /* margin:0 10% ;   */
+    margin: auto;
 }
