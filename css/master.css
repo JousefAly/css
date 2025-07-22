@@ -1,25 +1,33 @@
-.assign-3-shape-1 {
-    background-color: #DDD;
-    width: 300px;
-    padding: 10px;
-    /* border: 10px solid black; */
-    outline: 10px solid black;
-}
 
-.assign-2-shape-2 {
-    width: 400px;
-    background-image: Url(../images/css-assignment-5-8.png);
-    /* background-color: blueviolet; */
-    background-repeat: repeat-y;
-    margin: auto;
-    padding: 20px;
-}
+/*
+Block
 
-.assign-1-shape-3 {
-    width: 500px;
-    /* background-color: rgba(138, 43, 226, 0.5); */
-    background-color: hsla(271, 76%, 53%, 0.1);
-    margin: auto;
-    padding: 20px;
+-Take Full Width if no Width
+-Add Line break 
+-Respect Padding, Margin, Width, hight
 
+Inline
+
+-Don't add line break
+-Don't respect width, Height
+-Respect Padding and margin [Left & right]
+-Allow Elements Before and After it
+
+Inline-Block
+
+-Allow Elements before and after it
+-Respect Padding, Margin, Width, hight
+-
+
+
+
+*/
+
+span{
+    background-color: #EEE;
+    display: inline-block;  
+    padding:20px;  
+    margin:20px;
+    width: 200px;
+    height:200px
 }
