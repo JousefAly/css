@@ -1,62 +1,43 @@
 
 /*
-Block
+Text Alignment
 
--Take Full Width if no Width
--Add Line break 
--Respect Padding, Margin, Width, hight
-
-Inline
-
--Don't add line break
--Don't respect width, Height
--Respect Padding and margin [Left & right]
--Allow Elements Before and After it
-
-Inline-Block
-
--Allow Elements before and after it
--Respect Padding, Margin, Width, hight
--
+Alignment
+Direction
+Vertical Alignment
 
 
 
 */
+/* div{
+ background-color: burlywood;
+    text-align: center;
+    direction: rtl;
 
-/* span{
-    background-color: #EEE;
-    display: inline-block;  
-    padding:20px;  
-    margin:20px;
-    width: 200px;
-    height:200px
+}
+img{
+    vertical-align: middle;
+}
+.big{
+    line-height: 1.6;
 } */
- div{
-    
-    
-  border-left: 5px solid ;
-  width:100px;  
-  height: 100px;
-  padding: 10px;
-  margin:10px;
-  background-color: #DDD;  
-  overflow: auto;
-    
-    
- }
-
- .element-1{
-
-border-color: #E91E63;
 
 
- }
-  .element-2{
+p{
 
-visibility: hidden;
+     
 
+}
 
- }
-  .element-3{
-border-color: #009688;
- }
+.one{
+  text-transform: uppercase;
+}
+
+div{
+    width: 400px;
+    background-color: #DDD;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+
+}
