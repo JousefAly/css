@@ -29,15 +29,13 @@ p{
 
 }
 
-.one{
-  text-transform: uppercase;
-}
-
-div{
-    width: 400px;
-    background-color: #DDD;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-
+a{
+    display: inline-block;
+   width:40px;
+    background-color: #009688;
+    text-decoration: none;
+    color:white;
+    text-transform: capitalize;
+    border-bottom: 4px solid #00514A;
+    padding:10px 10px;
 }
