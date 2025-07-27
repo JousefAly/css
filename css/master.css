@@ -20,27 +20,47 @@ img{
 .big{
     line-height: 1.6;
 } */
+ html{
+    font-size: 20px;
+ }
  body{
-    margin:0
+    
  }
 
-.parent {
-    background-color: red;
-    padding: 10px 0;
-
-    
+div{
+    border: 5px solid blue;
+    padding:100px
 }
 
-.parent div{
-    padding-top: 10px;
-    padding-bottom: 10px;
+p{
+    margin:0px;
+    background-color: #ec0c0c;
+    opacity: 0.2;
+    border:inherit;
     text-align: center;
-    background-color: #eee;    
-    width:calc((100vw - (6*15px))/5);
-    margin-left:15px;
-    float:left;        
-    
+    padding: inherit;
 }
-.clear{
-    clear: both;
+
+.cairo-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.one{
+    font-family: "Cairo", sans-serif; 
+      font-weight: 700;
+      font-size: 2.5rem;
+}
+.two{
+    font-family: "Cairo", sans-serif; 
+      font-weight: 700;
+}
+.three{
+    font-family: "Jomhuria", sans-serif;
+      font-weight: 400;
+      
 }
