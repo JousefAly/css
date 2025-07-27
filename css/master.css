@@ -1,4 +1,3 @@
-
 /*
 Text Alignment
 
@@ -21,30 +20,27 @@ img{
 .big{
     line-height: 1.6;
 } */
+ body{
+    margin:0
+ }
 
+.parent {
+    background-color: red;
+    padding: 10px 0;
 
-p{
-
-     
-
+    
 }
 
-body {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.parent div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;    
+    width:calc((100vw - (6*15px))/5);
+    margin-left:15px;
+    float:left;        
+    
 }
-
-a{
-    display: inline-block;
-   width:fit-content;
-    background-color: #009688;
-    text-decoration: none;
-    color:white;
-    text-transform: capitalize;
-    border-bottom: 4px solid #00514A;
-    padding:10px 15px;
-    margin:auto
+.clear{
+    clear: both;
 }
