@@ -22,10 +22,41 @@ img{
 } */
 
 
-div{
-    background-color: red;
-    color:white;
-    padding: 10px;   
-    position:sticky ;
-    top:20px
+div {
+
+}
+
+.one::after{
+    content: "";
+    position:absolute;
+    background-color: aqua;
+    top:0;
+    right:0;
+    height: 100%;
+    width: 10px;
+}
+
+.one{
+        background-color: #eee;
+    color: black;
+    padding: 10px;
+    position: sticky;
+    top: 20px;
+    position: relative;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: red
+}
+
+.in::first-letter {
+    color: blue;
+    font-size: xx-large;
+
 }
